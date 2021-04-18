@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(239, 248, 248) !important;
+}
+.Navbar-Container {
+  background-image: url(https://i.pinimg.com/564x/65/5a/ef/655aefa16482ad8604e5c34b93de9cf4.jpg);
+  background-size: 100%;
+  background-position: center 1200px;
+  height: 150px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.HeadLine-Container {
+  display: flex;
+  width: 80%;
+}
+
+.align-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Section {
+  display: flex;
+  margin-top: 15px;
+  width: 80%;
+}
+
+#location {
+  font-size: 13px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  border: 1px solid #e6e6e6;
+  outline: none;
+  padding: 10px 0px 10px 35px;
+  transition: 0.3s;
+  background: white
+    url(https://as2.ftcdn.net/jpg/01/25/64/79/500_F_125647925_sEwC9GDYtLW9BmLA5wXnG9G6iX0w0X4j.jpg)
+    left no-repeat;
+  background-size: 10%;
+}
+
+.icon-input-container {
+  position: relative;
+}
+
+.location-title {
+  color: gray;
+  font-size: 15px;
+}
+
+.form2 {
+  font-size: 13px;
+  color: gray;
+  font-weight: bolder;
+}
+
+.Radio-Button {
+  font-size: 13px;
+  color: gray;
+  font-weight: bolder;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.Job_Container {
+  display: flex;
+  margin: 20px 0px 20px 50px;
+  box-shadow: 2px 2px 5px #d3d3d3;
+}
+
+.Company_info p {
+  font-size: 13px;
+  color: gray;
+  font-weight: bolder;
+}
+
+.Section-Jobs {
+  width: 100%;
+}
